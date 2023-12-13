@@ -19,10 +19,13 @@ FastAPI is a modern, fast (high-performance), web framework for building APIs wi
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/your-fastapi-project.git
-
+git clone https://github.com/dharmi04/Student-details.git
 # Navigate to the project directory
-cd your-fastapi-project
+cd Student-details
 
 # Install dependencies
 pip install -r requirements.txt
+
+#Run code
+uvicorn main:app --reload
+
